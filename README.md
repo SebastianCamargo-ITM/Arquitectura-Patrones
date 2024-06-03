@@ -55,3 +55,9 @@ Adicionalmente se propone un sistema de cache distribuido para almacenar los dat
 ## Escalamiento Horizontal 
 
 El conjunto de patrones, estilos y arquitecturas seleccionadas facilitan el escalamiento horizontal de la solución pues se busca que la solución tenga un bajo nivel de acoplamiento y que, aprovechando el estilo arquitectónico de microservicios puede ser escalada de forma independiente, sin tener que modificar la arquitectura planteada cada vez gracias al uso de balanceadores de carga para garantizar la alta disponibilidad incluso cuando algunas instancias fallan o están sobrecargadas  y del registro de servicios y API Gateway ya que actúan como un único punto de entrada para todas las solicitudes entrantes, lo que facilita la gestión de la carga pues en combinación con servicios de orquestación de contenedores o plataformas en la nube, el API Gateway puede permitir el escalado automático de los servicios en función de la demanda, lo que contribuye al escalado horizontal. 
+
+## Arquitectura Propuesta 
+
+A continuación, se presenta el diagrama con todos los componentes y sus interacciones que representan la arquitectura propuesta de la solución.
+
+![Diagrama de Componentes drawio](https://github.com/SebastianCamargo-ITM/Arquitectura-Patrones/assets/160674875/b8981385-fe20-49f5-bbc4-e24f3171ae44)
